@@ -178,8 +178,8 @@ namespace BlendishSharp.Samples.Demo
 			vg.bndTextField(rx, ry, 240, Blendish.BND_WIDGET_HEIGHT, BNDcornerFlags.BND_CORNER_NONE, BNDwidgetState.BND_HOVER,
 				null, edit_text, idx1, idx2);
 			ry += 25;
-/*			vg.bndTextField(rx, ry, 240, Blendish.BND_WIDGET_HEIGHT, BNDcornerFlags.BND_CORNER_NONE, BNDwidgetState.BND_ACTIVE,
-				null, edit_text, idx1, idx2);*/
+			vg.bndTextField(rx, ry, 240, Blendish.BND_WIDGET_HEIGHT, BNDcornerFlags.BND_CORNER_NONE, BNDwidgetState.BND_ACTIVE,
+				null, edit_text, idx1, idx2);
 
 			draw_noodles(vg, 20, ry + 50);
 
