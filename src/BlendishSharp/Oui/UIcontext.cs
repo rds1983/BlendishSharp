@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 
 namespace OuiSharp
 {
-	public class UIcontext
+	public unsafe class UIcontext
 	{
 		public uint item_capacity;
 		public uint buffer_capacity;
@@ -34,10 +34,10 @@ namespace OuiSharp
 		public byte* data;
 		public UIitem[] last_items;
 		public int* item_map;
-		public UIinputEvent[] events = new UIinputEvent[UI_MAX_INPUT_EVENTS];
+		public UIinputEvent[] events = new UIinputEvent[Oui.UI_MAX_INPUT_EVENTS];
 	}
 
-	public static void uiMakeCurrent(UIcontext ctx)
+/*	public static void uiMakeCurrent(UIcontext ctx)
 	{
 		Oui.ui_context = ctx;
 	}
@@ -50,6 +50,5 @@ namespace OuiSharp
 		free(ctx.item_map);
 		free(ctx.data);
 		free(ctx);
-	}
-
+	}*/
 }

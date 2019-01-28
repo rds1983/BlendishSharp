@@ -12,7 +12,7 @@ namespace OuiSharp
 		public int[] margins = new int[4];
 		public int[] size = new int[2];
 
-		private static UIitem uiItemPtr(int index)
+/*		private static UIitem uiItemPtr(int index)
 		{
 
 		}
@@ -380,6 +380,6 @@ namespace OuiSharp
 					}
 					break;
 			}
-		}
+		}*/
 	}
 }

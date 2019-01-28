@@ -6,7 +6,7 @@ namespace OuiSharp
 {
 	unsafe partial class Oui
 	{
-		public static int ui_max(int a, int b)
+/*		public static int ui_max(int a, int b)
 		{
 			return (int)(((a) > (b)) ? a : b);
 		}
@@ -737,6 +737,6 @@ namespace OuiSharp
 			}
 
 			return (int)(UIitemState.UI_COLD);
-		}
+		}*/
 	}
 }
